@@ -57,7 +57,7 @@ export default ({ navigation, route }) => {
         </View>
         <View>
           <Text>{currentQuestion.question?.text || 'Test'}</Text>
-          {currentQuestion.answers?.map((answer) => (
+          {currentQuestion.answers.map((answer) => (
             <Option>
               <Text>{answer}</Text>
             </Option>
